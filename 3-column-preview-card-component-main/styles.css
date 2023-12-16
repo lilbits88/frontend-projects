@@ -24,14 +24,23 @@ p{
 }
 .sedan {
 background: hsl(31, 77%, 52%);
+}
+.sedan-color {
 color: hsl(31, 77%, 52%);
 }
 .suv {
   background: hsl(184, 100%, 22%);
 }
+.suv-color {
+  color: hsl(184, 100%, 22%);
+}
 .luxury {
   background: hsl(179, 100%, 13%);
 }
+.luxury-color {
+  color: hsl(179, 100%, 13%);
+}
+
 .car-container {
   display: flex;
   flex-direction: column;
@@ -43,4 +52,5 @@ button {
   border-style: none;
   padding: .7rem 1.5rem;
   border-radius: 1.2rem;
+  font-weight: 600;
 }
