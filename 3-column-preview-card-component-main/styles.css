@@ -68,12 +68,15 @@ color: hsla(31, 77%, 52%, 0.6);
   body{
     display: flex;
     justify-content: center;
-    align-content: center;
     margin: 250px 300px;
   }
   .container {
     display: flex;
     flex-direction: row;
+  }
+  .car-container {
+    display: flex;
+    align-items: baseline;
   }
   .sedan {
     border-radius: .5rem 0 0 .5rem;
@@ -81,4 +84,5 @@ color: hsla(31, 77%, 52%, 0.6);
   .luxury {
     border-radius: 0 .5rem .5rem 0;
   }
+
 }
