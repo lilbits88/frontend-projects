@@ -22,18 +22,20 @@
 .header{
   font-family: 'Big Shoulders Display', sans-serif;
   text-transform: uppercase;
-  color: white;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 p{
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
-  color: white;
-  color: rgba(255,255,255,0.6);
+  color:hsla(0, 0%, 100%, 0.75);
+  line-height: 30px;
 }
 
 button {
-  background: white;
+  background: hsl(0, 0%, 95%);
   border-style: none;
   padding: .8rem 2rem;
   border-radius: 1.2rem;
@@ -68,19 +70,28 @@ color: hsla(31, 77%, 52%, 0.6);
   body{
     display: flex;
     justify-content: center;
-    margin: 250px 300px;
+    margin: 250px 309px;
   }
   .container {
     display: flex;
     flex-direction: row;
+    padding: 10px;
   }
+
   .car-container {
     display: flex;
-    align-items: baseline;
+    align-items: start;
+    padding: 50px 30px 40px 30px;
   }
+  p {
+    padding-bottom: 50px;
+    line-height: 30px;
+  }
+
   .sedan {
     border-radius: .5rem 0 0 .5rem;
   }
+
   .luxury {
     border-radius: 0 .5rem .5rem 0;
   }
