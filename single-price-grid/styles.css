@@ -34,10 +34,7 @@ body {
 
 .light-gray {
   color: hsl(204, 43%, 93%, .5);
-}
-
-.white {
-  color: white;
+  padding-left: 5px;
 }
 
 button {
@@ -57,6 +54,12 @@ h1{
 h2{
   font-size: medium;
 }
+
+.white {
+  color: white;
+  font-size: 1.2rem;
+}
+
 section{
   padding: 20px;
 }
@@ -91,4 +94,33 @@ section{
 
 .price {
   font-size: xx-large;
+}
+
+@media only screen and (min-width: 961px) {
+  body {
+    margin: 350px;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem 2rem 2.4rem;
+    font-size: 1.1rem;
+  }
+  .gray{
+    font-size: 1.1rem;
+  }
+  .monthly {
+    max-width: 50%;
+    border-radius: 0 0 0 .5rem;
+    padding: 2.4rem 2.5rem;
+  }
+  .why {
+    max-width: 50%;
+    border-radius: 0 0 .5rem 0;
+    padding: 2.4rem;
+  }
+  button {
+    margin-top: 1rem;
+    padding: 1.2rem;
+  }
 }
