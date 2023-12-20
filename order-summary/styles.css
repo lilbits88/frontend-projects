@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+  font: inherit;
+}
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+body{
+  background: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.hero {
+  border-radius: 1rem 1rem 0 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color:hsl(224, 23%, 55%);
+  padding: .5rem;
+}
+.annual {
+  background: hsl(225, 100%, 98%);
+  border-radius: .5rem;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+a{
+  font-weight: 700;
+  font-size: .9rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  border-radius: 1rem;
+  background: white;
+}
+.content-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.payment-button{
+  color: white;
+  background:hsl(245, 75%, 52%);
+  border: none;
+  border-radius: .5rem;
+  padding: .8rem;
+  font-size: .9rem;
+  font-weight: 700;
+  width: 100%;
+}
+.cancel-button {
+  color: hsl(224, 23%, 55%);
+  border: none;
+  background: white;
+  padding: .8rem;
+  border-radius: .5rem;
+  font-size: .9rem;
+  font-weight: 700;
+  width: 100%;
+}
