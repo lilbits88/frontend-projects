@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+ body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  background: hsl(275, 100%, 97%);
+ }
+ .card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  margin: 3.5rem 1.5rem;
+  padding: 1rem;
+ }
+ .main{
+  display: flex;
+ }
+ .sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ h1{
+  font-size: 2rem;
+  font-weight: 700;
+ }
+ h2{
+  font-weight: 600;
+ }
+ P{
+color: hsl(292, 16%, 49%);
+ }
