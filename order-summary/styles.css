@@ -9,6 +9,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
 body{
+  display: flex;
+  justify-content: center;
   background: hsl(225, 100%, 94%);
   font-size: 16px;
   font-family: 'Red Hat Display', sans-serif;
@@ -52,9 +54,14 @@ a{
   font-weight: 700;
   font-size: .9rem;
 }
+a:hover {
+  cursor: pointer;
+  color:hsl(245, 75%, 52%, .5);
+}
 .container{
   display: flex;
   flex-direction: column;
+  margin: 3.5rem 0;
   max-width: 350px;
   border-radius: 1rem;
   background: white;
@@ -76,6 +83,10 @@ a{
   font-weight: 700;
   width: 100%;
 }
+.payment-button:hover {
+  cursor: pointer;
+  background:hsl(245, 75%, 52%, .5);
+}
 .cancel-button {
   color: hsl(224, 23%, 55%);
   border: none;
@@ -85,4 +96,8 @@ a{
   font-size: .9rem;
   font-weight: 700;
   width: 100%;
+}
+.cancel-button:hover {
+  cursor: pointer;
+  color: black;
 }
