@@ -38,6 +38,16 @@ p{
   width: 100%;
   padding: 1rem;
 }
+.plan {
+  padding-left: 1.4rem;
+}
+.bold {
+  color: black;
+  font-weight: bold;
+}
+.grey{
+  color:hsl(224, 23%, 55%);
+}
 a{
   font-weight: 700;
   font-size: .9rem;
