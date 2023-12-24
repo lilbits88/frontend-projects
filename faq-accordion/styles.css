@@ -9,19 +9,35 @@
   font-size: 16px;
   background: hsl(275, 100%, 97%);
  }
+ .background-pattern {
+  position: relative;
+  z-index: 1;
+ }
  .card {
+  position: relative;
   background: hsl(0, 0%, 100%);
-  border-radius: 1rem;
-  margin: 3.5rem 1.5rem;
-  padding: 1rem;
+  border-radius: .5rem;
+  margin: -6rem 1.5rem;
+  z-index: 2;
+  padding: 2rem;
+  max-width: 350px;
  }
  .main{
   display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 1rem 0;
  }
  .sub {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid hsl(275, 100%, 97%);
+  padding: 1rem 0;
+
+ }
+ .star-icon {
+  width: 25px;
  }
  h1{
   font-size: 2rem;
@@ -32,4 +48,7 @@
  }
  P{
 color: hsl(292, 16%, 49%);
+padding: 1rem 0;
+border-bottom: 2px solid hsl(275, 100%, 97%);
+
  }
