@@ -17,7 +17,7 @@
   position: relative;
   background: hsl(0, 0%, 100%);
   border-radius: .5rem;
-  margin: -6rem 1.5rem;
+  margin: -6rem 1.5rem 4rem;
   z-index: 2;
   padding: 2rem;
   max-width: 350px;
