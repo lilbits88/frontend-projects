@@ -22,13 +22,13 @@
   padding: 2rem;
   max-width: 350px;
  }
- .main{
+ header {
   display: flex;
   gap: 1rem;
   align-items: baseline;
   padding: .2rem 0;
  }
- .sub {
+ details {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,17 +43,19 @@
   font-size: 2rem;
   font-weight: 700;
  }
- h2{
+ summary{
   font-weight: 600;
   font-size: .9rem;
  }
- h2:hover {
+ summary:hover {
   color:#ad28eb;
   cursor: pointer;
  }
  P{
   color: hsl(292, 16%, 49%);
   padding: 1rem 0;
-  border-bottom: 2px solid hsl(275, 100%, 97%);
   font-size: .8rem;
  }
+p:hover {
+  cursor: default;
+}
