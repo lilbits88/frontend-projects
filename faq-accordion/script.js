@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
   // Get all summary elements
   var summaries = document.querySelectorAll('summary');
 
@@ -17,7 +18,8 @@
         image.src = 'assets/images/icon-minus.svg';
       } else {
         // Reset the image source to the original when not clicked
-        image.src="assets/images/icon-plus.svg";
+        image.src = 'assets/images/icon-plus.svg';
       }
     });
   });
+});
