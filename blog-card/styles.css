@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 1rem;
+  max-width: 330px;
+  box-shadow: 10px 10px 0 0 black;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.hero {
+  border-radius: .5rem;
+  max-width: 100%;
+}
+.learning-block {
+  background-color: hsl(47, 88%, 63%);
+  padding: .5rem .7rem;
+  border-radius: .2rem;
+  font-size: .8rem;
+  font-weight: 800;
+  max-width: fit-content;
+}
+.date {
+  font-size: .8rem;
+}
+h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+h1:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+p {
+  font-size: .89rem;
+  line-height: 1.2rem;
+  color: hsl(0, 0%, 50%);
+}
+.greg {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  max-width: 100%;
+}
+.avatar{
+  height: 2.3rem;
+}
+.greg-pic{
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+.name {
+  font-weight: 800;
+}
+
+
+
+
