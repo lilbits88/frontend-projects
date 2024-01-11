@@ -81,6 +81,12 @@ h1 {
   display: flex;
   gap: 1rem;
 }
+.summary-score{
+  color:hsl(224, 30%, 27%);
+}
+.summary-out-of {
+  color: hsla(224, 30%, 27%, .4);
+}
 .reaction{
   color: hsl(0, 100%, 67%);
   background:  hsla(0, 100%, 67%, .05);
@@ -110,4 +116,20 @@ button:hover {
   background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
+/* MEDIA QUERIES */
+@media (min-width: 1000px) {
+  body {
+    align-items: center;
+  }
+ .results {
+  flex-direction: row;
+ }
+ .result-section {
+  border-radius: 2rem;
+ }
+ .summary-section{
+  border-radius: 0 2rem 2rem 0;
+  box-shadow: 10px 10px 10px 10px hsla(221, 100%, 96%, .5);
+ }
+}
 
