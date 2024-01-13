@@ -14,7 +14,6 @@ body {
 .results {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 h1 {
   color: hsl(241, 100%, 89%);
@@ -117,13 +116,14 @@ button:hover {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   body {
     align-items: center;
   }
  .results {
   flex-direction: row;
  }
+
  .result-section {
   border-radius: 2rem;
  }
