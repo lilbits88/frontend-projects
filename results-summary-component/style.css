@@ -16,6 +16,7 @@ body {
   flex-direction: column;
 }
 h1 {
+  font-size: 1.2rem;
   color: hsl(241, 100%, 89%);
   margin-top: 1rem;
 }
@@ -23,7 +24,7 @@ h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1rem;
   background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   border-radius: 0 0 2rem 2rem;
@@ -34,7 +35,7 @@ h1 {
   height: 3rem;
   margin: 1rem auto 0;
   border-radius: 50%;
-  padding: 2rem;
+  padding: 2.3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +50,12 @@ h1 {
   color:  hsla(241, 100%, 89%, .5);
 }
 .result-description {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: hsl(221, 100%, 96%);
 }
 .result-explanation {
-  color: hsl(241, 100%, 89%);
-  font-size: .8rem;
+  color: hsla(241, 100%, 89%, .7);
+  font-size: .9rem;
   margin: 0 2rem 1rem;
 }
 /* SUMMARY */
@@ -122,14 +123,39 @@ button:hover {
   }
  .results {
   flex-direction: row;
+  max-width:670px;
  }
-
  .result-section {
+  font-size: 1.2rem;
   border-radius: 2rem;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  width: 50%;
+ }
+ h1{
+  font-size: 1.2rem;
+ }
+ .result-explanation {
+  font-size: 1.1rem;
+  margin: 0;
+ }
+ .score-container{
+  padding: 3.5rem;
+ }
+ .result-score{
+  font-size: 3.5rem;
+ }
+ .result-description{
+  font-size: 1.7rem;
  }
  .summary-section{
   border-radius: 0 2rem 2rem 0;
   box-shadow: 10px 10px 10px 10px hsla(221, 100%, 96%, .5);
+  padding: 1rem;
+  width: 50%;
+ }
+ button{
+  width: 100%;
  }
 }
 
