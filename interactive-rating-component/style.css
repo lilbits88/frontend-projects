@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: hsl(216, 12%, 8%);
+}
+.rating-card {
+  background: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+  width: 350px;
+  height: fit-content;
+}
+.star-icon {
+  display: none;
+}
+.rating-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.3rem;
+}
+h1 {
+  color: hsl(0, 0%, 80%);
+  font-size: 1.7rem;
+}
+p {
+  color:hsl(216, 12%, 54%);
+}
+.rating-component {
+  display: flex;
+  gap: 4rem;
+}
+.rating {
+  color: hsl(216, 12%, 54%);
+}
+.submit-button {
+  display: block;
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 80%);
+  border-radius: 2rem;
+  padding: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+.mobile-thank-you {
+  display: none;
+}

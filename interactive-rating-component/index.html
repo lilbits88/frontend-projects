@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <article class="rating-card">
+    <div class="rating-content">
+      <img class="star-icon" src="images/icon-star.svg" alt="star icon">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      <div class="rating-component" role="radiogroup" aria-label="Rating">
+        <span class="rating" role="radio" aria-checked="false">1</span>
+        <span class="rating" role="radio" aria-checked="false">2</span>
+        <span class="rating" role="radio" aria-checked="false">3</span>
+        <span class="rating" role="radio" aria-checked="false">4</span>
+        <span class="rating" role="radio" aria-checked="false">5</span>
+      </div>
+      <button class="submit-button">Submit</button>
+    </div>
+  </article>
+
+  <article class="mobile-thank-you">
+    <img src="images/illustration-thank-you.svg" alt="thank you illustration">
+    <span class="result">You selected <!-- Add rating here --> out of 5</span>
+    <h1>Thank you!</h1>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </article>
+</body>
+
+</html>
