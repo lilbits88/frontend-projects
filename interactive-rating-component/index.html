@@ -12,30 +12,34 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <article class="rating-card">
+  <article class="card">
     <div class="rating-content">
-      <img class="star-icon" src="images/icon-star.svg" alt="star icon">
+      <div class="circle-container">
+        <img class="star-icon" src="images/icon-star.svg" alt="star icon">
+      </div>
       <h1>How did we do?</h1>
       <p>Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
-      <div class="rating-component" role="radiogroup" aria-label="Rating">
-        <span class="rating" role="radio" aria-checked="false">1</span>
-        <span class="rating" role="radio" aria-checked="false">2</span>
-        <span class="rating" role="radio" aria-checked="false">3</span>
-        <span class="rating" role="radio" aria-checked="false">4</span>
-        <span class="rating" role="radio" aria-checked="false">5</span>
-      </div>
+        <div class="rating-component" role="radiogroup" aria-label="Rating">
+          <button class="rating" role="radio" aria-checked="false">1</button>
+          <button class="rating" role="radio" aria-checked="false">2</button>
+          <button class="rating" role="radio" aria-checked="false">3</button>
+          <button class="rating" role="radio" aria-checked="false">4</button>
+          <button class="rating" role="radio" aria-checked="false">5</button>
+        </div>
+        
       <button class="submit-button">Submit</button>
     </div>
   </article>
 
-  <article class="mobile-thank-you">
-    <img src="images/illustration-thank-you.svg" alt="thank you illustration">
-    <span class="result">You selected <!-- Add rating here --> out of 5</span>
+  <article class="thank-you-card">
+    <div class="thank-you-content">
+    <img class="thanks-image" src="images/illustration-thank-you.svg" alt="thank you illustration">
+    <span class="result">You selected 4 out of 5</span>
     <h1>Thank you!</h1>
-    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+    <p class="thank-you">We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!</p>
+    </div>
   </article>
 </body>
-
 </html>
