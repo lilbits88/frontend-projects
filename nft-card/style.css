@@ -25,20 +25,62 @@ body {
 }
 
 .equilibrium {
+  position: relative;
   max-width: 100%;
   border-radius: .5rem;
 }
 
+.equilibrium-container {
+  position: relative;
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  border-radius: .5rem;
+  transition: background 0.3s ease;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.equilibrium-container:hover .overlay {
+  background: hsla(178, 100%, 50%, 0.5);
+}
+
+.equilibrium-container:hover .overlay img {
+  opacity: 1; 
+}
+
 h1 {
+  font-weight: 600;
+  font-size: 1.2rem;
   color: hsl(0, 0%, 100%);
+}
+
+h1:hover {
+  cursor: pointer;
+  color:hsla(178, 100%, 50%);
 }
 
 p {
   color: hsl(215, 51%, 70%);
-  font-size: .8rem;
+  font-size: .9rem;
+  font-weight: 300;
 }
 
-.container {
+.details-container {
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid hsl(215, 32%, 27%);
@@ -50,30 +92,40 @@ p {
   gap: .3rem;
   font-size: .8rem;
   color: hsl(178, 100%, 50%);
-  margin-bottom: .5rem;
+  margin-bottom: .7rem;
 }
 
 .days-left {
   display: flex;
   align-content: center;
   gap: .3rem;
-  font-size: .7rem;
+  font-size: .8rem;
   color:hsl(215, 51%, 70%);
-  margin-bottom: .5rem;
+  margin-bottom: .7rem;
 }
 
 .jules {
   display: flex;
   align-items: center;
+  gap: .3rem;
   color:hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: .9rem;
 }
 .avatar {
   border: 2px solid hsl(0, 0%, 100%);
   border-radius: 50%;
   height: 2rem;
-  margin-right: 1rem;
+  margin-right: .5rem;
 }
 
 a {
   color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+a:hover {
+  cursor: pointer;
+  color:hsl(178, 100%, 50%);
 }
