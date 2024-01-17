@@ -56,7 +56,9 @@ body {
 }
 
 .equilibrium-container:hover .overlay {
+  cursor: pointer;
   background: hsla(178, 100%, 50%, 0.5);
+  opacity: 1; 
 }
 
 .equilibrium-container:hover .overlay img {
