@@ -16,8 +16,13 @@ body {
   background: hsl(185, 75%, 39%);
 }
 .top {
+  position: relative;
+  left: -400px;
+  bottom: -200px;
+  z-index: 0;
 }
 .card {
+  z-index: 1;
   background: hsl(0, 0%, 100%);
   width: 320px;
   border-radius: 1rem;
@@ -88,4 +93,8 @@ body {
 }
 
 .bottom {
+  position: relative;
+  top: -200px;
+  right: -350px;
+  z-index: 0;
 }
