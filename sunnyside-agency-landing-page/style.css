@@ -31,7 +31,7 @@ p, .job-title {
   font-family: 'Barlow', sans-serif;
 }
 
-/* NAV BAR & HERO */
+/* HERO & NAV */
 nav {
   position: relative;
   display: flex;
@@ -46,36 +46,22 @@ nav {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   list-style: none;
   color: hsl(0, 0%, 100%);
   font-family: 'Barlow', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 button {
   border-radius: 2rem;
   border: none;
   padding: .8rem 1.5rem;
   font-family: 'Fraunces', serif;
-  font-size: .8rem;
+  font-size: .9rem;
   text-transform: uppercase;
-}
-.hero {
-  position: relative;
 }
 .image-container {
   position: relative;
-}
-.hero-img {
-  position: relative;
-  z-index: 1; 
-  margin-top: -360px;
-}
-.arrow {
-  position: relative;
-  z-index: 2; 
-  left: 700px;
-  top: 110px;
 }
 h1 {
   position: relative;
@@ -85,20 +71,35 @@ h1 {
   font-size: 3.5rem;
   font-weight: 900;
   z-index: 2;
-  left: 390px;
-  top: 30px;
+  margin-left: 23rem;
+  margin-top: 2rem;
+}
+.hero-img {
+  position: relative;
+  z-index: 1; 
+  margin-top: -375px;
+}
+.arrow {
+  position: relative;
+  z-index: 2; 
+  left: 700px;
+  top: 110px;
 }
 
 /* TRANSFORM & STAND-OUT */
 .transform, .stand-out {
   display: flex;
 }
+.card,
+.egg, 
+.cup {
+  width: 50%;
+}
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 4rem;
-  width: 50%;
 }
 .card-content {
   display: flex;
@@ -114,7 +115,6 @@ h2 {
 .transform p, .stand-out p {
   color: hsl(232, 10%, 55%);
 }
-
 a {
   position: relative;
   padding-left: .5rem;
@@ -124,7 +124,6 @@ a {
   font-size: .9rem;
   font-weight: 900;
 }
-
 .transform a::after, 
 .stand-out a::after {
   content: '';
@@ -136,54 +135,123 @@ a {
   border-radius: 5px; 
   z-index: -1;
 }
-
 .transform a::after {
   background-color: hsl(51, 100%, 89%);
 }
 .stand-out a::after {
   background-color: hsl(7, 99%, 92%);
 }
-
 .transform a:hover::after {
   cursor: pointer;
   background-color: hsl(51, 100%, 49%);
 }
-
 .stand-out a:hover::after {
   cursor: pointer;
   background-color:hsl(7, 99%, 67%); 
 }
 
-.egg {
-  width: 50%;
+/* OVERLAY */
+.overlay {
+  display: flex;
+  height: 600px;
+}
+.graphic {
+  color: hsl(167, 40%, 24%);
+}
+.photography {
+  color: hsl(198, 62%, 26%);
 }
 
-.cup {
+.graphic,
+.photography {
+  position: relative;
+  z-index: 1;
   width: 50%;
 }
+.overlay-content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  left: 150px;
+  bottom: 220px;
+  width: 400px;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
 
+/* CLIENT TESTIMONIALS */
 .client-testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5rem;
+  padding: 8rem;
 }
-
+h4 {
+  letter-spacing: .3rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+}
 .client-container {
   display: flex;
   justify-content: space-evenly;
+  gap: 3rem;
 }
-
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 22rem;
+}
 .avatar {
   border-radius: 50%;
+  height: 5rem;
+} 
+.testimonials {
+  text-align: center;
+  line-height: 2rem;
+  color: hsl(213, 9%, 39%);
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-weight: 900;
+}
+.job-title {
+  color: hsl(210, 4%, 67%);
 }
 
+/* GALLERY */
 .gallery {
   display: flex;
 }
 .gallery-img {
   width: 25%;
 }
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  background-color: hsl(168, 34%, 61%);
+}
 
+
+footer .nav-links {
+  color: hsla(198, 62%, 26%, .7);
+}
 .icon-container {
   display: flex;
+  gap: 2rem;
 }
